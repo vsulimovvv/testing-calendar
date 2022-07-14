@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Zabuto Calendar</title>
+    <!--  zabuto_calendar -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/zabuto_calendar/1.6.4/zabuto_calendar.min.css"
+      integrity="sha512-WRcIo/ywVhLZ5L/zO19ph3+xFT0fL4OZEQeP5oxbeUgcXvlWsDUuHq0ODulhxi68CaWQ9XEy1g5ictPkaxnfow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    "
+  >
+    <div class="calendar__calendar" style="max-width: 900px; margin: 0 auto">
+      <h2 class="calendar__title">
+        Календарь <span></span>
+        мероприятий
+      </h2>
+
+      <div id="date-popover" class="popover">
+        <div id="date-popover-content" class="popover-content"></div>
+      </div>
+      <div id="calendar" class="calendar__content"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Zabuto -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/zabuto_calendar/1.6.4/zabuto_calendar.min.js"
+      integrity="sha512-HvdZfHEdDyE5r66O4BLg+GE/kCwpviitPcq/H5L2gmr1P+tqDKBUfY9UP7ll6Idle+zeulQDXYYKbTiiUwLF+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--  -->
+    <script src="main.js"></script>
+  </body>
+</html>
